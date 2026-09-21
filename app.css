@@ -1,0 +1,176 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+body {
+  font-family: "Host Grotesk", sans-serif;
+}
+.container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: 0;
+  text-align: center;
+}
+ul {
+  list-style: none;
+}
+.dongs-logo {
+  width: 100px;
+}
+.navbar-wrapper {
+  background-color: #ffddb4;
+  width: 100%;
+  border-bottom: 0.5px solid #c9c6c2;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.navbar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar-headers {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.btn {
+  font-size: 1.6rem;
+  padding: 1.5rem 3rem;
+}
+.btn-primary {
+  color: white;
+  background-color: #3e2723;
+  border: 2px solid #3e2723;
+}
+.hero-section-wrapper {
+  background-color: #f5f2ed;
+  padding: 2rem 2rem;
+}
+.hero-section {
+  background-color: #f5f2ed;
+  height: 100vh;
+  display: grid;
+  column-gap: 5rem;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+}
+.hero-texts {
+  display: flex;
+  flex-direction: column;
+}
+.hero-header {
+  color: #2b1613;
+  font-size: 6rem;
+  font-family: "Libre Caslon Text", serif;
+  margin-bottom: 5rem;
+}
+.hero-description {
+  color: #745a36;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+.header-img {
+  width: 50rem;
+}
+
+.review-section-wrapper {
+  background-color: #e5e2dd;
+  padding: 2rem 2rem;
+}
+.review-section {
+  background-color: #e5e2dd;
+  height: 100vh;
+}
+.review-section-header {
+  font-size: 2.5rem;
+  font-family: "Libre Caslon Text", serif;
+  margin-top: 10rem;
+  text-align: center;
+}
+.products-section-wrapper {
+  background-color: #f5f2ed;
+  padding: 2rem 2rem;
+}
+.products-section {
+  background-color: #f5f2ed;
+  display: grid;
+  column-gap: 5rem;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.products-section-header {
+  font-size: 4rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+}
+
+.product-overview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.products-kicker {
+  width: fit-content;
+  font-size: 1.5rem;
+  padding: 0rem 2rem;
+  border: 0.5px solid #745a36;
+  margin-bottom: 5rem;
+}
+.tablea-product-img {
+  width: 50rem;
+}
+.tablea-product-header {
+  color: #2b1613;
+  font-size: 4rem;
+  font-family: "Libre Caslon Text", serif;
+  margin-bottom: 5rem;
+}
+.tablea-product-description {
+  color: #745a36;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+}
+.product-property-list {
+  margin-bottom: 5rem;
+}
+.product-properties {
+  font-size: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.price {
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 400;
+  font-size: 5rem;
+  margin-bottom: 2rem;
+}
+.checkmark {
+  width: 1.5rem;
+}
+.cart {
+  width: 2rem;
+}
+.add-to-cart {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+}
