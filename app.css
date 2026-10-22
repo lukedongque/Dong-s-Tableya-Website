@@ -46,6 +46,10 @@ ul {
   align-items: center;
   gap: 20px;
 }
+.navlinks {
+  text-decoration: none;
+  color: #3e2723;
+}
 .btn {
   font-size: 1.6rem;
   padding: 1.5rem 3rem;
@@ -93,7 +97,7 @@ ul {
 }
 .review-section {
   background-color: #e5e2dd;
-  height: 100vh;
+  height: 80vh;
 }
 .review-section-header {
   font-size: 2.5rem;
