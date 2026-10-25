@@ -59,31 +59,36 @@ Dong's Tableya Website/
 
 - [x] **Sticky Navigation Bar**:
   - Brand logo with home link.
-  - Navigation menu (`Home`, `Products`, `Reviews`).
-  - "Buy Now" primary call-to-action button.
+  - Navigation menu (`Home`, `Products`, `How to Order`, `Reviews`).
+  - "Order Now" primary call-to-action button linking directly to ordering steps.
 - [x] **Hero Section**:
   - Compelling heritage-driven headline & narrative copy.
-  - Direct "Order now" CTA.
+  - Direct "Order Now" CTA.
   - High-resolution hero mockup imagery.
 - [x] **Signature Product Showcase**:
-  - Detailed product card for *Traditional 100% Pure Tablea* (₱200.00 / 20 pcs per pack).
+  - Detailed product card for *Traditional 100% Pure Tablea* (₱200.00 / 20 discs per pack).
   - Feature highlights with custom checkmark icons.
-  - Interactive "Add to Bag" button with shopping cart icon.
-- [ ] **Customer Reviews Section** *(In progress: skeleton container created)*.
+  - "Order via Messenger" direct trigger button.
+- [x] **How to Order Section**:
+  - 3-step visual guide (Message order details, pay via GCash, dispatch to door).
+  - High-converting direct Messenger button & SMS/call hotline.
+  - GCash payment acceptance badge.
+- [x] **Bilingual Customer Reviews Section**:
+  - Authentic Bisaya customer feedback paired with clear English translations.
+  - Star ratings and verified buyer badges.
+  - Privacy-compliant naming (`First Name + Last Initial`).
+- [x] **Brand Footer**:
+  - Cebu heritage seal & brand narrative.
+  - Quick links & direct contact / Facebook ordering channels.
+- [x] **Responsive Layout**:
+  - Media queries for desktop, tablet, and mobile displays.
 
 ---
 
 ## 📋 Roadmap / Upcoming Milestones
 
-- [ ] **Customer Testimonials**: Implement interactive review cards and star rating badges in `.review-section`.
-- [ ] **Responsive Design & Mobile Optimization**:
-  - Media queries for mobile phones (`<768px`) and tablets (`768px - 1024px`).
-  - Collapsible mobile navigation / hamburger menu.
-- [ ] **Interactivity & State Management (JavaScript)**:
-  - Functional shopping bag counter and cart modal drawer.
-  - Smooth scrolling navigation triggers.
-- [ ] **Footer Section**:
-  - Social media links, Cebu origin badge, contact information, and business hours.
+- [ ] **Real Social & Contact Details**: Replace placeholder phone numbers and Facebook page handles with official URLs.
+- [ ] **Mobile Drawer Navigation**: Add hamburger menu toggle for small screens.
 - [ ] **SEO & Accessibility**:
   - Meta tags, OpenGraph previews, and image descriptive `alt` optimizations.
 
